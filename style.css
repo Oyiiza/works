@@ -161,17 +161,26 @@ h1{
 
 @media only screen and (min-width: 768px){
     
-   .black{
-   position: absolute;
+  .black{
+    display: inline;
+    width: 30%;
+    float: left;
+   height: 1000px;
    
-    left: 0;
-   width: 500px;
-   height: 800px;
-  }
-   .image{
-   height: 800px;
-  
-  }
+
+   }
+ 
+   
+   .img{
+    display: inline;
+    width: 70%;
+    float: right;
+    object-fit: contain;
+    
+}
+.image{
+  height: 1000px;
+}
  
    
    
